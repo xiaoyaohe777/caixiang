@@ -207,40 +207,67 @@ def calculate_scores(animals):
 
     return results
 
+# 初始化前一年的采相信息
+prev_yearshus = yearshus
+prev_dayshus = dayshus
 
-# 计算18年后的年份
-end_year = year + 18
+nian = Zhi[yearshu.dz]
+yue = Zhi[prev_yearshus.dz]
+ri = Zhi[dayshu.dz]
+shi = Zhi[prev_dayshus.dz]
 
-while years < end_year:  # 只输出到18年
+# 示例输入
+animals = [nian, yue, ri, shi]
+results = calculate_scores(animals)
+
+# 获取下一年采相的信息
+days = sxtwl.fromSolar(years, mouths, dayss)
+
+# 提取下一年采相当天的信息，只提取年月日，用汉字来记录
+yearshus = days.getYearGZ()
+mouthshus = days.getMonthGZ()
+dayshus = days.getDayGZ()
+
+# 只输出18次结果，每次间隔1年
+for _ in range(18):  # 循环18次
+    # 保存当前采相信息作为下一轮的前一年信息
+    current_yearshus = yearshus
+    current_dayshus = dayshus
+    
+    # 输出当前周期结果，使用前一年的采相信息
     print(
         years,
         "-",
         mouths,
         ":",
         Zhi[yearshu.dz],
-        Zhi[yearshus.dz],
+        Zhi[current_yearshus.dz],
         Zhi[dayshu.dz],
-        Zhi[dayshus.dz],
+        Zhi[current_dayshus.dz],
     )
+    
     years += 1
-
+    
+    # 获取当前周期的采相信息
+    days = sxtwl.fromSolar(years, mouths, dayss)
+    
     nian = Zhi[yearshu.dz]
-    yue = Zhi[yearshus.dz]
+    yue = Zhi[current_yearshus.dz]
     ri = Zhi[dayshu.dz]
-    shi = Zhi[dayshus.dz]
+    shi = Zhi[current_dayshus.dz]
 
     # 示例输入
     animals = [nian, yue, ri, shi]
     results = calculate_scores(animals)
+    
     # 只打印汇总结果
     print(f"基础分: {results['基础分']}")
     print(f"相五行分: {results['相五行分']}")
     print(f"相基的70%+相五行的30%: {results['相基的70%+相五行的30%']}")
-
-    # 获取下一年采相的信息
-    days = sxtwl.fromSolar(years, mouths, dayss)
-
-    # 提取下一年采相当天的信息，只提取年月日，用汉字来记录
+    
+    # 更新采相信息
+    prev_yearshus = yearshus
+    prev_dayshus = dayshus
     yearshus = days.getYearGZ()
     mouthshus = days.getMonthGZ()
     dayshus = days.getDayGZ()
