@@ -15,7 +15,7 @@
 
 3. 下载本项目代码源文件，下载到 D:\Program Files (x86)\Python\Lib\site-packages
 
-4. 使用vscode打开本项目文件，在第八行代码找到以下括号，填写你的相主年月日
+4. 使用vscode打开本项目文件，在第八行代码找到以下括号，把我的生日修改成你的相主年月日
 
 `# 获取相主信息
 day = sxtwl.fromSolar(2001,10,9)`
