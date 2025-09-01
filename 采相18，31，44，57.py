@@ -5,7 +5,7 @@ import sxtwl
 Gan = ["甲", "乙", "丙", "丁", "戊", "己", "庚", "辛", "壬", "癸"]
 Zhi = ["鼠", "牛", "虎", "兔", "龙", "蛇", "马", "羊", "猴", "鸡", "狗", "猪"]
 # 获取相主信息
-day = sxtwl.fromSolar(2002,4,7)
+day = sxtwl.fromSolar(2001,10,9)
 
 # 公历的年月日
 s = "公历:%d年%d月%d日" % (day.getSolarYear(), day.getSolarMonth(),
