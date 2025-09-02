@@ -1,4 +1,4 @@
-<img width="505" height="1125" alt="image" src="https://github.com/user-attachments/assets/3a15d2ad-ef42-4dde-985c-8daf90a33e71" /># 前言
+# 前言
 首先感谢sxtwl项目前辈们，没有你们的寿星天文历，采相程序根本无法完成。
 
 其次感谢玄门相宗掌门人金甲子大师以及师叔师伯祖师爷，没有你们的破解采相完整流程，本项目也是扯淡。
@@ -18,7 +18,7 @@
 4. 在vscode终端里面输入代码，安装寿星天文历
 
 `pip install sxtwl`
-
+<img width="505" height="1125" alt="image" src="https://github.com/user-attachments/assets/3a15d2ad-ef42-4dde-985c-8daf90a33e71" />
 5. 使用vscode打开本项目文件，在第八行代码找到以下括号，把我的生日修改成你的相主年月日
 
 `# 获取相主信息
