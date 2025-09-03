@@ -6,9 +6,7 @@
 
 最后感谢OpenAI，本项目是由逍遥鹤借助OpenAI，加上我本人对python的一点点理解，还算幸运的完成了本采相辅助工具。
 
-本项目没有窗口程序，相师们想要使用时，直接修改源代码输入年月日即可。
-
-# 本次V0.2版本重大更新，使用步骤更加简单方便：
+# 本次V0.2版本重大更新，已添加窗口UI，使用步骤更加简单方便：
 
 1. 到官网下载python最新版本 https://www.python.org/
 
@@ -17,8 +15,9 @@
 2. 下载本项目压缩包，解压之后打开文件夹【采真属相工具包v0.20测试】
 
 3. 鼠标右键点击任意一个采相文件，使用python打开方式即可
-   
-<img width="969" height="356" alt="image" src="https://github.com/user-attachments/assets/97d67d7b-2b24-484d-a5e5-d8f2f3d96bc4" />
+
+<img width="1081" height="329" alt="image" src="https://github.com/user-attachments/assets/56c7c6da-ad73-4087-9c20-5214b0a6df01" />
+
 
 
 # 提醒：
