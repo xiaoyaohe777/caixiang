@@ -14,6 +14,8 @@
  
 2. 下载本项目压缩包，解压之后打开文件夹【采真属相工具包v0.20测试】
 
+<img width="1362" height="523" alt="image" src="https://github.com/user-attachments/assets/565bbb01-8c6d-4d1c-94bb-a0a90f1bea74" />
+
 3. 鼠标右键点击任意一个采相文件，使用python打开方式即可
 
 <img width="1081" height="329" alt="image" src="https://github.com/user-attachments/assets/56c7c6da-ad73-4087-9c20-5214b0a6df01" />
