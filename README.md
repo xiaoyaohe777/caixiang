@@ -8,9 +8,12 @@
 
 # 本次V0.2版本重大更新，已添加运行窗口，使用步骤更加简单方便：
 
-1. 到官网下载python最新版本 https://www.python.org/
+1. 到官网下载python最新版本并且安装 https://www.python.org/
 
  <img width="1436" height="761" alt="image" src="https://github.com/user-attachments/assets/8fa96ff8-d6ca-4f51-93e1-840d05b77fc5" />
+
+ <img width="975" height="603" alt="image" src="https://github.com/user-attachments/assets/089d99a4-e44f-491a-a19a-976cf6805c00" />
+
  
 2. 下载本项目压缩包，解压之后打开文件夹【采真属相工具包v0.20测试】
 
