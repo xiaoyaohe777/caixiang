@@ -1,4 +1,5 @@
 # 前言
+
 首先感谢sxtwl项目前辈们，没有你们的寿星天文历，采相程序根本无法完成。
 
 其次感谢玄门相宗掌门人金甲子大师以及师叔师伯祖师爷，没有你们的破解采相完整流程，本项目也是扯淡。
@@ -7,39 +8,23 @@
 
 本项目没有窗口程序，相师们想要使用时，直接修改源代码输入年月日即可。
 
-# 使用教程：
+# 本次V0.2版本重大更新，使用步骤更加简单方便：
 
-1. Windows系统的朋友，去google下载vscode程序
+1. 到官网下载python最新版本 https://www.python.org/
 
-2. 安装并打开vscode程序，把sxtwl库安装到示例文件夹 D:\Program Files (x86)\Python\Lib\site-packages
+ <img width="1436" height="761" alt="image" src="https://github.com/user-attachments/assets/8fa96ff8-d6ca-4f51-93e1-840d05b77fc5" />
+ 
+2. 下载本项目压缩包，解压之后打开文件夹【采真属相工具包v0.20测试】
 
-3. 下载本项目代码源文件，下载到 D:\Program Files (x86)\Python\Lib\site-packages
+3. 鼠标右键点击任意一个采相文件，使用python打开方式即可
+   
+<img width="969" height="356" alt="image" src="https://github.com/user-attachments/assets/97d67d7b-2b24-484d-a5e5-d8f2f3d96bc4" />
 
-4. 在vscode终端里面输入代码，安装寿星天文历
-
-`pip install sxtwl`
-
-
-<img width="505" height="1125" alt="image" src="https://github.com/user-attachments/assets/3a15d2ad-ef42-4dde-985c-8daf90a33e71" />
-
-
-5. 使用vscode打开本项目文件，在第八行代码找到以下括号，把我的生日修改成你的相主年月日
-
-`# 获取相主信息
-day = sxtwl.fromSolar(2001,10,9)`
-
-6. 运行即可，一定要确保本项目代码源文件和sxtwl库在同一文件夹，否则无法运行，或者会出现一些莫名其妙的bug。
-
-7. 以后需要使用的时候，再次修改年月日信息即可。
 
 # 提醒：
 
-1. 本项目正在测试宫位神，目前运行良好无问题。
-
-2. 采相测试宫位神文件，需要输入相主的年份属相，之后回车，再输入时辰属相，回车即可输出结果。
-
-3. 没有编写运行窗口，没有.exe安装包，所以只能见一个相主输入一次源代码，部署的时间比较长，只要成功一次，之后会非常顺畅。
-
+1. sxtwl是日历，这个不能删，删了就用不了采相工具了
+2. 采相宫位神文件，需要输入相主的年份属和时辰属
 
 
 # 说明：
