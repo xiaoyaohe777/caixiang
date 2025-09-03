@@ -12,7 +12,7 @@
 
  <img width="1436" height="761" alt="image" src="https://github.com/user-attachments/assets/8fa96ff8-d6ca-4f51-93e1-840d05b77fc5" />
 
- <img width="975" height="603" alt="image" src="https://github.com/user-attachments/assets/089d99a4-e44f-491a-a19a-976cf6805c00" />
+<img width="1247" height="772" alt="image" src="https://github.com/user-attachments/assets/3613650e-638d-45f4-a542-b97b32759c49" />
 
  
 2. 下载本项目压缩包，解压之后打开文件夹【采真属相工具包v0.20测试】
