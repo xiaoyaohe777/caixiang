@@ -6,29 +6,16 @@
 
 最后感谢OpenAI，本项目是由逍遥鹤借助OpenAI，加上我本人对python的一点点理解，还算幸运的完成了本采相辅助工具。
 
-# 本次V0.2版本重大更新，已添加运行窗口，使用安装三步走：
+# 本次V0.3版本再次更新，直接运行.exe文件即可，一步到位！
 
-1. 到官网下载python最新版本并且安装 https://www.python.org/
-
- <img width="1436" height="761" alt="image" src="https://github.com/user-attachments/assets/8fa96ff8-d6ca-4f51-93e1-840d05b77fc5" />
-
-<img width="1247" height="772" alt="image" src="https://github.com/user-attachments/assets/3613650e-638d-45f4-a542-b97b32759c49" />
-
- 
-2. 下载本项目压缩包，解压之后打开文件夹【采真属相工具包v0.20测试】
+下载本项目压缩包，解压之后打开程序即可！下载地址见图：
 
 <img width="1362" height="523" alt="image" src="https://github.com/user-attachments/assets/565bbb01-8c6d-4d1c-94bb-a0a90f1bea74" />
-
-3. 鼠标右键点击任意一个采相文件，使用python打开方式即可
-
-<img width="1081" height="329" alt="image" src="https://github.com/user-attachments/assets/56c7c6da-ad73-4087-9c20-5214b0a6df01" />
-
 
 
 # 提醒：
 
-1. sxtwl是日历，这个不能删，删了就用不了采相工具了
-2. 采相宫位神文件，需要输入相主的年份属和时辰属
+1. 采相四轮宫位神，需要输入相主的年份属和时辰属
 
 
 # 说明：
